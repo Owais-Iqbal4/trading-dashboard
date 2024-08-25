@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=YourFont:wght@400;700&display=swap');
+
+.SideBarMainContainer {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #212121;
+    background-color: #212121;
+    overflow-y: scroll;
+    
+}
+.SideBarMainContainer::-webkit-scrollbar {
+    display: none;
+}
+.SideBarMainContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.sidebar-img {
+    width: 1.5vw;
+}
+
+.sidebar-text {
+    font-size: 1vw;
+    color: #9B9B9B;
+}
+
+.img-text-container {
+    display: flex;
+    padding: 6px;
+    border-radius: 4px;
+    gap: .5vw;
+}
+.container-child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1vw;
+}
+.container-child-2{
+    border:1px solid #252525;
+    height:30%;
+}
+.container-child-3{
+    align-self: flex-end;
+}
