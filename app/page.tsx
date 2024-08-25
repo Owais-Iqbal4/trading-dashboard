@@ -20,7 +20,7 @@ export default function Home() {
           <Sidebar setShowSidebar = {setShowSidebar} />
         </div>
       </div>
-      <div className={`w-[82%] h-[100%] p-[1vw] overflow-x-scroll responsive-view`}>
+      <div className={`w-[82%] h-[100%] p-[1vw] responsive-view`}>
         <div className="w-full h-[5%] chart-header ">
           <div className="menu-icon hidden">
             <button onClick={menuShow}>
