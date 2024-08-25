@@ -13,7 +13,7 @@ import {
     Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { ChartType } from 'chart.js';
+import { ChartPropTypes } from './chart.types';
 
 ChartJS.register(
     CategoryScale,
@@ -26,7 +26,7 @@ ChartJS.register(
     Legend
 );
 
-const Chart: React.FC<ChartType> = (props) => {
+const Chart: React.FC<ChartPropTypes> = (props) => {
     const data = {
         labels: [
             'Jan 23', 'Feb 23', 'Mar 23', 'Apr 23', 'May 23', 'Jun 23', 'Jul 23', 'Aug 23',

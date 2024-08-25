@@ -1,3 +1,3 @@
-export interface ChartTypes{
+export interface ChartPropTypes{
     
 }
