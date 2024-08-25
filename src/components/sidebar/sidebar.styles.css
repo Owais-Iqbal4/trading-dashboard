@@ -6,21 +6,26 @@
     border: 1px solid #212121;
     background-color: #212121;
     overflow-y: scroll;
-    
+
 }
+
 .SideBarMainContainer::-webkit-scrollbar {
     display: none;
 }
+
 .SideBarMainContainer {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
+
 .sidebar-img {
-    width: 1.5vw;
+    width: 15px;
 }
 
 .sidebar-text {
-    font-size: 1vw;
+    font-size: 1rem;
     color: #9B9B9B;
 }
 
@@ -28,19 +33,32 @@
     display: flex;
     padding: 6px;
     border-radius: 4px;
-    gap: .5vw;
+    gap: 5px;
 }
-.container-child{
+
+.container-child {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 1vw;
 }
-.container-child-2{
-    border:1px solid #252525;
-    height:30%;
+
+.container-child-2 {
+    border: 1px solid #252525;
+    height: 30%;
 }
-.container-child-3{
+
+.container-child-3 {
     align-self: flex-end;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+@media (max-width: 769px) {
+    .cross-sidebar {
+        display: block;
+    }
 }

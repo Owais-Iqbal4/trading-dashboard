@@ -7,3 +7,56 @@
 body {
   background: #111111;
 }
+
+@media (max-width: 769px) {
+  .sidebar {
+      display: none;
+  }
+  .responsive-view{
+    width: 100%;
+  }
+  .chart-header{
+    display: block;
+    display: flex;
+    gap: 10px;
+  }
+  .menu-icon{
+    display: block;
+    margin-left: 10px;margin-top: 10px;
+ 
+    
+  }
+}
+
+.charts::-webkit-scrollbar {
+  display: none;
+}
+
+.charts {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.table-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.table-scroll {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.responsive-view::-webkit-scrollbar {
+  display: none;
+}
+
+.responsive-view {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
